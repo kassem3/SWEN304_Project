@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HouseFood</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="small_icon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="top-right-buttons">
+        <div class="button-container">
+            <a href="#" class="signup-button">Sign Up</a>
+            <br>
+            <br>
+            <br>
+            <a href="#" class="login-button">Login</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="centered">
+            <img src="large_icon.png" alt="HouseFood Logo" class="logo">
+            <p class="slogan">Where Every Meal Feels Like Home</p>
+        </div>
+        <br>
+        <p class="top-picks">Top Picks:</p>
+        <div class="food-images">
+            <div class="food-item">
+                <img src="doner.png" alt="Doner" class="food-image">
+                <p class="food-name">Doner</p>
+            </div>
+            <div class="food-item">
+                <img src="burger.png" alt="Burger" class="food-image">
+                <p class="food-name">Burger</p>
+            </div>
+            <div class="food-item">
+                <img src="pizza.png" alt="Pizza" class="food-image">
+                <p class="food-name">Pizza</p>
+            </div>
+            <div class="food-item">
+                <img src="rice.png" alt="Rice" class="food-image">
+                <p class="food-name">Rice</p>
+            </div>
+            <div class="food-item">
+                <img src="fries.png" alt="Fries" class="food-image">
+                <p class="food-name">Fries</p>
+            </div>
+            <div class="food-item">
+                <img src="salad.png" alt="Salad" class="food-image">
+                <p class="food-name">Salad</p>
+            </div>
+            <div class="food-item">
+                <img src="soup.png" alt="Soup" class="food-image">
+                <p class="food-name">Soup</p>
+            </div>
+            <div class="food-item">
+                <img src="drinks.png" alt="Drinks" class="food-image">
+                <p class="food-name">Drinks</p>
+            </div>
+        </div>
+
+        <p class="all-kitchens">All Kitchens:</p>
+        <div class="food-images">
+            <div class="kitchen-container">
+                <img src="kitchen.png" alt="Kitchen 1" class="kitchen-image">
+                <span class="rating">⭐4.9</span>
+            </div>
+
+            <div class="kitchen-container">
+                <img src="kitchen.png" alt="Kitchen 2" class="kitchen-image">
+                <span class="rating">⭐4.7</span>
+            </div>
+
+            <div class="kitchen-container">
+                <img src="kitchen.png" alt="Kitchen 3" class="kitchen-image">
+                <span class="rating">⭐4.4</span>
+            </div>
+
+            <div class="kitchen-container">
+                <img src="kitchen.png" alt="Kitchen 4" class="kitchen-image">
+                <span class="rating">⭐4.2</span>
+            </div>
+        </div>
+        <div class="food-images">
+            <div class="kitchen-container">
+                <img src="kitchen.png" alt="Kitchen 5" class="kitchen-image">
+                <span class="rating">⭐4.1</span>
+            </div>
+
+            <div class="kitchen-container">
+                <img src="kitchen.png" alt="Kitchen 6" class="kitchen-image">
+                <span class="rating">⭐4.1</span>
+            </div>
+
+            <div class="kitchen-container">
+                <img src="kitchen.png" alt="Kitchen 7" class="kitchen-image">
+                <span class="rating">⭐3.9</span>
+            </div>
+
+            <div class="kitchen-container">
+                <img src="kitchen.png" alt="Kitchen 8" class="kitchen-image">
+                <span class="rating">⭐3.8</span>
+            </div>
+        </div>
+        <div class="food-images">
+            <div class="kitchen-container">
+                <img src="kitchen.png" alt="Kitchen 9" class="kitchen-image">
+                <span class="rating">⭐3.6</span>
+            </div>
+
+            <div class="kitchen-container">
+                <img src="kitchen.png" alt="Kitchen 10" class="kitchen-image">
+                <span class="rating">⭐3.4</span>
+            </div>
+
+            <div class="kitchen-container">
+                <img src="kitchen.png" alt="Kitchen 11" class="kitchen-image">
+                <span class="rating">⭐3.2</span>
+            </div>
+
+            <div class="kitchen-container">
+                <img src="kitchen.png" alt="Kitchen 12" class="kitchen-image">
+                <span class="rating">⭐3.0</span>
+            </div>
+        </div>
+
+        <br>
+        <div class="contact-info">
+            <p class="contact-us">Contact Us:</p>
+            <form id="contact-form" onsubmit="return validateForm()">
+                <div class="input-container">
+                    <select id="feedback-type" class="feedback-select">
+                        <option value="" disabled selected>-- Feedback Type --</option>
+                        <option value="List my Restaurant">List my Restaurant</option>
+                        <option value="Order Issue">Order Issue</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="input-container">
+                    <input type="text" id="name" placeholder="Name">
+                </div>
+                <div class="input-container">
+                    <input type="email" id="email" placeholder="Email">
+                </div>
+                <div class="input-container">
+                    <input type="text" id="phone" placeholder="Phone">
+                </div>
+                <div class="input-container">
+                    <textarea id="message" rows="4" placeholder="Message"></textarea>
+                </div>
+                <button type="button" class="submit-button" onclick="validateForm()">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="copyright">
+        <hr class="grey-line">
+        <p>Copyright &copy; 2024 HouseFood Inc. All rights reserved.</p>
+    </div>
+    <script src="function.js"></script> <!-- Place the script tag here -->
+</body>
+</html>

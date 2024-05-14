@@ -1,0 +1,195 @@
+﻿body {
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.top-picks,
+.all-kitchens,
+.contact-us {
+    text-align: left;
+    font-size: 20px;
+    color: #000;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    margin: 0 auto; /* Centering the logo horizontally */
+}
+
+.slogan {
+    font-size: 18px;
+    color: #000;
+    margin-top: 0;
+}
+
+.food-images {
+    display: flex;
+    flex-wrap: wrap; /* Wrap items to next line */
+    justify-content: space-between; /* Distribute items evenly */
+    margin: 20px auto; /* Center horizontally */
+}
+
+.food-image,
+.kitchen-image {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+    border-radius: 4%; /* Rounded corners */
+}
+
+.kitchen-container {
+    text-align: center; /* Center text horizontally */
+    margin: 10px 15px; /* Add some horizontal margin */
+}
+
+.kitchen-image {
+    width: 320px; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust spacing between images */
+}
+
+.rating {
+    display: block;
+    margin-top: -10px; /* Adjust spacing as needed */
+    font-size: 14px;
+    color: #000;
+}
+
+.top-right-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.signup-button,
+.login-button,
+.submit-button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #000; /* Updated text color */
+    background-color: #fff; /* Updated background color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+    .signup-button:hover,
+    .submit-button:hover {
+        background-color: #c4c4c4;
+    }
+
+.login-button {
+    color: black; /* Text color black */
+    background-color: #ffed00; /* Yellow color */
+    transition: background-color 0.3s ease; /* Smooth transition for the hover effect */
+}
+
+    .login-button:hover {
+        background-color: #ccbd00; /* Darker yellow color on hover */
+    }
+
+.contact-info {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.input-container {
+    margin-bottom: 15px;
+    width: 97%;
+}
+
+    .input-container input[type="text"],
+    .input-container input[type="email"],
+    .input-container textarea,
+    .feedback-select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #666;
+        background-color: #f8f8f8; /* Grey background color */
+    }
+
+        .input-container input[type="text"]:focus,
+        .input-container input[type="email"]:focus,
+        .input-container textarea:focus,
+        .feedback-select:focus {
+            background-color: #fff; /* White background color on focus */
+        }
+
+.grey-line {
+    width: 50%; /* Adjust the width as needed */
+    border: 1px solid #ccc;
+    margin: 50px auto 0; /* Adjusted margin-top */
+}
+
+.submit-button {
+    font-size: inherit; /* Use the same font size as the parent */
+}
+
+#message::placeholder {
+    font-family: 'Roboto', sans-serif;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.food-item {
+    text-align: center;
+    margin-bottom: 20px; /* Adjust spacing between items */
+}
+
+.food-image {
+    width: 150px;
+    height: auto;
+    border-radius: 4%; /* Rounded corners */
+    transition: filter 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.food-item:hover .food-image {
+    filter: brightness(80%); /* Reduce brightness on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.kitchen-container {
+    text-align: center;
+    margin: 10px 15px;
+}
+
+.kitchen-image {
+    width: 320px;
+    height: auto;
+    border-radius: 4%;
+    margin-bottom: 20px;
+    transition: filter 0.3s ease;
+}
+
+.kitchen-container:hover .kitchen-image {
+    filter: brightness(80%);
+    cursor: pointer;
+}
+
+.signup-button,
+.login-button,
+.submit-button,
+.food-item,
+.kitchen-container {
+    transition: background-color 0.3s ease; /* Smooth transition for the hover effect */
+}
+
+.copyright {
+    text-align: center;
+}
