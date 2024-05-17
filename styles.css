@@ -67,11 +67,11 @@
     margin-bottom: 20px;
 }
 
-    .food-item:hover .food-image,
-    .kitchen-container:hover .kitchen-image {
-        filter: brightness(80%);
-        cursor: pointer;
-    }
+.food-image:hover,
+.kitchen-image:hover {
+    filter: brightness(80%);
+    cursor: pointer;
+}
 
 .rating {
     display: block;
